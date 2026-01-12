@@ -377,7 +377,7 @@
 	"id": "https://raw.githubusercontent.com/ecd015/LEAF-Writer-Workshop/main/inferno_files/Inferno_english.xml?person_annotation_20260112110352284",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-01-12T16:03:52.284Z",
-	"dcterms:modified": "2026-01-12T16:03:52.284Z",
+	"dcterms:modified": "2026-01-12T16:04:22.169Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ecd015",
 		"@type": [
@@ -408,7 +408,10 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
+		"@type": [
+			"schema:Person",
+			"cwrc:FictionalPerson"
+		],
 		"@id": "http://www.wikidata.org/entity/Q82732",
 		"dc:format": "text/plain"
 	},
@@ -418,7 +421,8 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.9.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -682,7 +686,7 @@
 
             <lg n="41" xml:id="lg041">
                <l n="121">I saw <persName key="Elektra" ref="http://www.wikidata.org/entity/Q131651" cert="medium" type="fictional">Electra</persName> with companions many,</l>
-               <l n="122">’Mongst whom I knew both <persName key="Hector" ref="http://www.wikidata.org/entity/Q159666">Hector</persName> and <persName key="Aeneas" ref="http://www.wikidata.org/entity/Q82732">Aeneas</persName>,</l>
+               <l n="122">’Mongst whom I knew both <persName key="Hector" ref="http://www.wikidata.org/entity/Q159666">Hector</persName> and <persName key="Aeneas" ref="http://www.wikidata.org/entity/Q82732" cert="medium" type="fictional">Aeneas</persName>,</l>
                <l n="123">Caesar in armour with gerfalcon eyes;</l>
             </lg>
 
